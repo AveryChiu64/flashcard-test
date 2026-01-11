@@ -1,0 +1,24 @@
+{
+    "results": [
+        {
+            "front": "bonjour",
+            "correct": true
+        },
+        {
+            "front": "au revoir",
+            "correct": true
+        },
+        {
+            "front": "merci",
+            "correct": false
+        },
+        {
+            "front": "oui",
+            "correct": true
+        },
+        {
+            "front": "non",
+            "correct": true
+        }
+    ]
+}

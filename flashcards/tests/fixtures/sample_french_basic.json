@@ -1,0 +1,27 @@
+{
+  "deck": {
+    "name": "French Basics"
+  },
+  "cards": [
+    { "front": "bonjour", "back": "hello" },
+    { "front": "au revoir", "back": "goodbye" },
+    { "front": "merci", "back": "thank you" },
+    { "front": "s'il vous plaît", "back": "please" },
+    { "front": "oui", "back": "yes" },
+    { "front": "non", "back": "no" },
+    { "front": "excusez-moi", "back": "excuse me" },
+    { "front": "pardon", "back": "sorry" },
+    { "front": "comment", "back": "how" },
+    { "front": "pourquoi", "back": "why" },
+    { "front": "où", "back": "where" },
+    { "front": "quand", "back": "when" },
+    { "front": "qui", "back": "who" },
+    { "front": "quoi", "back": "what" },
+    { "front": "homme", "back": "man" },
+    { "front": "femme", "back": "woman" },
+    { "front": "ami", "back": "friend" },
+    { "front": "famille", "back": "family" },
+    { "front": "eau", "back": "water" },
+    { "front": "pain", "back": "bread" }
+  ]
+}

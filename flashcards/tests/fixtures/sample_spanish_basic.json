@@ -1,0 +1,87 @@
+{
+    "deck": {
+        "name": "Spanish Basics"
+    },
+    "cards": [
+        {
+            "front": "hola",
+            "back": "hello"
+        },
+        {
+            "front": "adiós",
+            "back": "goodbye"
+        },
+        {
+            "front": "gracias",
+            "back": "thank you"
+        },
+        {
+            "front": "por favor",
+            "back": "please"
+        },
+        {
+            "front": "sí",
+            "back": "yes"
+        },
+        {
+            "front": "no",
+            "back": "no"
+        },
+        {
+            "front": "disculpe",
+            "back": "excuse me"
+        },
+        {
+            "front": "lo siento",
+            "back": "sorry"
+        },
+        {
+            "front": "cómo",
+            "back": "how"
+        },
+        {
+            "front": "por qué",
+            "back": "why"
+        },
+        {
+            "front": "dónde",
+            "back": "where"
+        },
+        {
+            "front": "cuándo",
+            "back": "when"
+        },
+        {
+            "front": "quién",
+            "back": "who"
+        },
+        {
+            "front": "qué",
+            "back": "what"
+        },
+        {
+            "front": "hombre",
+            "back": "man"
+        },
+        {
+            "front": "mujer",
+            "back": "woman"
+        },
+        {
+            "front": "amigo",
+            "back": "friend"
+        },
+        {
+            "front": "familia",
+            "back": "family"
+        },
+        {
+            "front": "agua",
+            "back": "water"
+        },
+        {
+            "front": "pan",
+            "back": "bread"
+        }
+    ]
+}

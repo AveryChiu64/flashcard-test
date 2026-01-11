@@ -1,0 +1,207 @@
+{
+    "deck": {
+        "name": "French Extended"
+    },
+    "cards": [
+        {
+            "front": "bonjour",
+            "back": "hello"
+        },
+        {
+            "front": "au revoir",
+            "back": "goodbye"
+        },
+        {
+            "front": "merci",
+            "back": "thank you"
+        },
+        {
+            "front": "chat",
+            "back": "cat"
+        },
+        {
+            "front": "chien",
+            "back": "dog"
+        },
+        {
+            "front": "maison",
+            "back": "house"
+        },
+        {
+            "front": "voiture",
+            "back": "car"
+        },
+        {
+            "front": "école",
+            "back": "school"
+        },
+        {
+            "front": "livre",
+            "back": "book"
+        },
+        {
+            "front": "crayon",
+            "back": "pencil"
+        },
+        {
+            "front": "stylo",
+            "back": "pen"
+        },
+        {
+            "front": "ordinateur",
+            "back": "computer"
+        },
+        {
+            "front": "table",
+            "back": "table"
+        },
+        {
+            "front": "chaise",
+            "back": "chair"
+        },
+        {
+            "front": "fenêtre",
+            "back": "window"
+        },
+        {
+            "front": "porte",
+            "back": "door"
+        },
+        {
+            "front": "mur",
+            "back": "wall"
+        },
+        {
+            "front": "sol",
+            "back": "floor"
+        },
+        {
+            "front": "plafond",
+            "back": "ceiling"
+        },
+        {
+            "front": "jardin",
+            "back": "garden"
+        },
+        {
+            "front": "fleur",
+            "back": "flower"
+        },
+        {
+            "front": "arbre",
+            "back": "tree"
+        },
+        {
+            "front": "soleil",
+            "back": "sun"
+        },
+        {
+            "front": "lune",
+            "back": "moon"
+        },
+        {
+            "front": "étoile",
+            "back": "star"
+        },
+        {
+            "front": "ciel",
+            "back": "sky"
+        },
+        {
+            "front": "nuage",
+            "back": "cloud"
+        },
+        {
+            "front": "pluie",
+            "back": "rain"
+        },
+        {
+            "front": "neige",
+            "back": "snow"
+        },
+        {
+            "front": "vent",
+            "back": "wind"
+        },
+        {
+            "front": "manger",
+            "back": "to eat"
+        },
+        {
+            "front": "boire",
+            "back": "to drink"
+        },
+        {
+            "front": "dormir",
+            "back": "to sleep"
+        },
+        {
+            "front": "courir",
+            "back": "to run"
+        },
+        {
+            "front": "marcher",
+            "back": "to walk"
+        },
+        {
+            "front": "parler",
+            "back": "to speak"
+        },
+        {
+            "front": "écouter",
+            "back": "to listen"
+        },
+        {
+            "front": "voir",
+            "back": "to see"
+        },
+        {
+            "front": "regarder",
+            "back": "to watch"
+        },
+        {
+            "front": "aimer",
+            "back": "to like/love"
+        },
+        {
+            "front": "détester",
+            "back": "to hate"
+        },
+        {
+            "front": "travailler",
+            "back": "to work"
+        },
+        {
+            "front": "jouer",
+            "back": "to play"
+        },
+        {
+            "front": "lire",
+            "back": "to read"
+        },
+        {
+            "front": "écrire",
+            "back": "to write"
+        },
+        {
+            "front": "aller",
+            "back": "to go"
+        },
+        {
+            "front": "venir",
+            "back": "to come"
+        },
+        {
+            "front": "faire",
+            "back": "to do/make"
+        },
+        {
+            "front": "être",
+            "back": "to be"
+        },
+        {
+            "front": "avoir",
+            "back": "to have"
+        }
+    ]
+}

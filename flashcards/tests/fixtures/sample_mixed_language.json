@@ -1,0 +1,47 @@
+{
+    "deck": {
+        "name": "Mixed Languages"
+    },
+    "cards": [
+        {
+            "front": "One",
+            "back": "1"
+        },
+        {
+            "front": "Deux",
+            "back": "2"
+        },
+        {
+            "front": "Tres",
+            "back": "3"
+        },
+        {
+            "front": "Four",
+            "back": "4"
+        },
+        {
+            "front": "Cinq",
+            "back": "5"
+        },
+        {
+            "front": "Seis",
+            "back": "6"
+        },
+        {
+            "front": "Seven",
+            "back": "7"
+        },
+        {
+            "front": "Huit",
+            "back": "8"
+        },
+        {
+            "front": "Nueve",
+            "back": "9"
+        },
+        {
+            "front": "Ten",
+            "back": "10"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "results": [
+        {
+            "front": "merci",
+            "correct": true
+        },
+        {
+            "front": "chat",
+            "correct": false
+        },
+        {
+            "front": "chien",
+            "correct": true
+        },
+        {
+            "front": "maison",
+            "correct": true
+        }
+    ]
+}
