@@ -31,6 +31,11 @@ class DeckRepository:
                 for row in rows
             ]
 
+    def delete(self, deck_id: int):
+        with self.db.get_connection() as conn:
+            conn.execute("DELETE FROM decks WHERE id = ?", (deck_id,))
+            conn.commit()
+
 class CardRepository:
     def __init__(self, db: Database):
         self.db = db
