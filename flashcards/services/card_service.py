@@ -3,6 +3,7 @@ from typing import List
 from flashcards.models import Card
 from flashcards.storage.repositories import CardRepository, ReviewRepository
 from flashcards.services.clock import Clock
+from flashcards.services.validators import validate_card
 
 class CardService:
     def __init__(self, card_repo: CardRepository, review_repo: ReviewRepository, clock: Clock):
@@ -12,6 +13,7 @@ class CardService:
 
     def add_card(self, deck_id: int, front: str, back: str) -> Card:
         """Adds a new card to a deck."""
+        validate_card(front, back)
         # We pass explicit today from clock to ensure consistency
         return self.card_repo.create(deck_id, front, back, due_date=self.clock.today())
 
