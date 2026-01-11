@@ -2,15 +2,18 @@ from datetime import date
 from typing import List
 from flashcards.models import Card
 from flashcards.storage.repositories import CardRepository, ReviewRepository
+from flashcards.services.clock import Clock
 
 class CardService:
-    def __init__(self, card_repo: CardRepository, review_repo: ReviewRepository):
+    def __init__(self, card_repo: CardRepository, review_repo: ReviewRepository, clock: Clock):
         self.card_repo = card_repo
         self.review_repo = review_repo
+        self.clock = clock
 
     def add_card(self, deck_id: int, front: str, back: str) -> Card:
         """Adds a new card to a deck."""
-        return self.card_repo.create(deck_id, front, back)
+        # We pass explicit today from clock to ensure consistency
+        return self.card_repo.create(deck_id, front, back, due_date=self.clock.today())
 
     def get_due_cards(self, target_date: date = None) -> List[Card]:
         """
@@ -28,7 +31,7 @@ class CardService:
            This means correct cards stay due=today, BUT shouldn't be shown again.
            So we explicitly filter out any card reviewed on 'target_date'.
         """
-        today = target_date if target_date else date.today()
+        today = target_date if target_date else self.clock.today()
         
         # Get all potential candidates
         candidates = self.card_repo.get_due_cards(today)

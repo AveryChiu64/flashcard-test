@@ -3,7 +3,7 @@ from datetime import date
 from typing import Optional
 
 from flashcards.storage import Database, DeckRepository, CardRepository, ReviewRepository
-from flashcards.services import CardService, ReviewService, DeckService
+from flashcards.services import CardService, ReviewService, DeckService, Clock
 from flashcards.models import Deck, Card
 
 class FlashcardCLI:
@@ -16,8 +16,9 @@ class FlashcardCLI:
         self.card_repo = CardRepository(self.db)
         self.review_repo = ReviewRepository(self.db)
         
-        self.card_service = CardService(self.card_repo, self.review_repo)
-        self.review_service = ReviewService(self.review_repo, self.card_repo)
+        self.clock = Clock()
+        self.card_service = CardService(self.card_repo, self.review_repo, self.clock)
+        self.review_service = ReviewService(self.review_repo, self.card_repo, self.clock)
         self.deck_service = DeckService(self.deck_repo)
 
     def run(self):

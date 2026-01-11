@@ -2,7 +2,8 @@ import pytest
 import tempfile
 import os
 from flashcards.storage import Database, DeckRepository, CardRepository, ReviewRepository
-from flashcards.services import CardService, ReviewService, DeckService
+from flashcards.storage import Database, DeckRepository, CardRepository, ReviewRepository
+from flashcards.services import CardService, ReviewService, DeckService, Clock
 
 @pytest.fixture
 def db():
@@ -19,11 +20,13 @@ def services(db):
     deck_repo = DeckRepository(db)
     card_repo = CardRepository(db)
     review_repo = ReviewRepository(db)
+    clock = Clock()
     return {
         "deck_repo": deck_repo,
         "card_repo": card_repo,
         "review_repo": review_repo,
+        "clock": clock,
         "deck_service": DeckService(deck_repo),
-        "card_service": CardService(card_repo, review_repo),
-        "review_service": ReviewService(review_repo, card_repo)
+        "card_service": CardService(card_repo, review_repo, clock),
+        "review_service": ReviewService(review_repo, card_repo, clock)
     }
