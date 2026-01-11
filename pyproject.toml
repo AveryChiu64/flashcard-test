@@ -1,0 +1,11 @@
+[project]
+name = "flashcard-test"
+version = "0.1.0"
+description = "A simple backend-only flashcard application"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
